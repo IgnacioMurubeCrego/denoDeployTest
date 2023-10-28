@@ -19,7 +19,7 @@ const PORT = env.PORT;
 // SI NINGUNA DE LAS 2 EXISTE => ERROR.
 if (!MONGO_URL) {
   console.log("You need to define MONGO_URL env");
-  Deno.exit(1);
+  Deno.exit();
 }
 
 // CONEXIÓN A MONGO 
