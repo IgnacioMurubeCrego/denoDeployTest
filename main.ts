@@ -1,4 +1,4 @@
-// @ts-ignore ignored import error 
+// @ts-ignore : ignored import error 
 import express, { Request, Response} from "npm:express@4.18.2";
 import mongoose from "npm:mongoose@7.6.3";
 
