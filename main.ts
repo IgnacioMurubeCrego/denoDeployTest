@@ -1,4 +1,4 @@
-// @ts-ignore ignored import error 
+// @ts-ignore : ignored import error 
 import express, { Request, Response} from "npm:express@4.18.2";
 import mongoose from "npm:mongoose@7.6.3";
 
@@ -38,7 +38,7 @@ app.use(express.json());
 
 // ENDPOINTS
 app
-.get("/test", (req: Request, res : Response) => res.send("Working!"))
+.get("/test", (_req: Request, res : Response) => res.send("Working!"))
 .get("/api/tierramedia/personajes", getAll)
 // .get("/api/tierramedia/personajes/:id", getInfoById)
 .post("/api/tierramedia/personajes", postCharacter)

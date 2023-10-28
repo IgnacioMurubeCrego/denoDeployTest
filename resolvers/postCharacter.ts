@@ -1,4 +1,4 @@
-// @ts-ignore ignored import error
+// @ts-ignore : ignored import error
 import {Request, Response} from "npm:express@4.18.2";
 import { CharacterModel, CharacterModelType } from "../db/character.ts";
 import { RACES } from "../types.ts";
